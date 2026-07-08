@@ -18,7 +18,7 @@ Time Series: ~10 algorithms
     Interpolation Search
     Exponential Search ✅
     Ternary Search ✅
-    Fibonacci Search
+    Fibonacci Search 
 
 # Sorting 
     # basic 
