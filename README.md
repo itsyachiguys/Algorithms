@@ -9,16 +9,15 @@ Probabilistic Models: ~10 algorithms
 Time Series: ~10 algorithms
 
 # searching algorithms 
-    Linear Search
+    Linear Search ✅
     Sentinel Linear Search
-    Binary Search (Iterative)
-    Binary Search (Recursive)
+    Binary Search ✅
     Lower Bound
     Upper Bound
     Jump Search
     Interpolation Search
-    Exponential Search
-    Ternary Search
+    Exponential Search ✅
+    Ternary Search ✅
     Fibonacci Search
 
 # Sorting 
