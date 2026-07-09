@@ -37,18 +37,25 @@ public class FS {
     }
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int[] arr = {10, 20, 30, 40, 50, 60, 70, 80, 90};
-        System.out.print("Array: ");
-        for (int num : arr)
-            System.out.print(num + " ");
-        System.out.print("\nEnter element to search: ");
-        int key = sc.nextInt();
-        int result = fibonacciSearch(arr, key);
-        if (result == -1)
-            System.out.println("Element not found.");
-        else
-            System.out.println("Element found at index " + result);
-        sc.close();
+        try (Scanner sc = new Scanner(System.in)) {
+
+            int[] arr = {10,20,30,40,50,60,70,80,90};
+
+            System.out.print("Array: ");
+            for (int num : arr) {
+                System.out.print(num + " ");
+            }
+
+            System.out.print("\nEnter element to search: ");
+            int key = sc.nextInt();
+
+            int result = fibonacciSearch(arr, key);
+
+            if (result == -1)
+                System.out.println("Element not found.");
+            else
+                System.out.println("Element found at index " + result);
+
+        }
     }
 }

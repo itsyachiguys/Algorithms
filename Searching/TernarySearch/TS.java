@@ -25,24 +25,26 @@ public class TS {
     }
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int[] arr = {5, 10, 15, 20, 25, 30, 35, 40, 45};
 
-        System.out.print("Array: ");
+        try (Scanner sc = new Scanner(System.in)) {
 
-        for (int num : arr)
-            System.out.print(num + " ");
+            int[] arr = {5, 10, 15, 20, 25, 30, 35, 40, 45};
 
-        System.out.print("\nEnter element to search: ");
-        int key = sc.nextInt();
+            System.out.print("Array: ");
+            for (int num : arr) {
+                System.out.print(num + " ");
+            }
 
-        int result = ternarySearch(arr, 0, arr.length - 1, key);
+            System.out.print("\nEnter element to search: ");
+            int key = sc.nextInt();
 
-        if (result == -1)
-            System.out.println("Element not found.");
-        else
-            System.out.println("Element found at index " + result);
+            int result = ternarySearch(arr, 0, arr.length - 1, key);
 
-        sc.close();
+            if (result == -1)
+                System.out.println("Element not found.");
+            else
+                System.out.println("Element found at index " + result);
+
+        }   
     }
 }
