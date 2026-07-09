@@ -3,7 +3,6 @@ def recursive_search(arr, key, index):
         return index
     return recursive_search(arr, key, index + 1)
 
-
 def sentinel_linear_search(arr, key):
     n = len(arr)
     last = arr[-1]
@@ -13,7 +12,6 @@ def sentinel_linear_search(arr, key):
     if index < n - 1 or arr[-1] == key:
         return index
     return -1
-
 
 arr = [15, 22, 18, 35, 40]
 key = 35
