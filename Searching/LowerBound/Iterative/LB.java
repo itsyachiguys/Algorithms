@@ -1,5 +1,4 @@
 package Searching.LowerBound.Iterative;
-
 public class LB {
 
     public static int lowerBound(int[] arr, int target) {
