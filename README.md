@@ -197,9 +197,9 @@ Natural Language Processing
 | ✅ | Linear Search |
 | ✅ | Sentinel Linear Search |
 | ✅ | Binary Search |
-| ⬜ | Lower Bound |
-| ⬜ | Upper Bound |
-| ⬜ | Jump Search |
+| ✅ | Lower Bound |
+| ✅ | Upper Bound |
+| ✅ | Jump Search |
 | ✅ | Interpolation Search |
 | ✅ | Exponential Search |
 | ✅ | Ternary Search |
