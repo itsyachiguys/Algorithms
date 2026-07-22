@@ -195,12 +195,12 @@ Natural Language Processing
 | Status | Algorithm |
 |:------:|-----------|
 | ✅ | Linear Search |
-| ⬜ | Sentinel Linear Search |
+| ✅ | Sentinel Linear Search |
 | ✅ | Binary Search |
 | ⬜ | Lower Bound |
 | ⬜ | Upper Bound |
 | ⬜ | Jump Search |
-| ⬜ | Interpolation Search |
+| ✅ | Interpolation Search |
 | ✅ | Exponential Search |
 | ✅ | Ternary Search |
 | ✅ | Fibonacci Search |
